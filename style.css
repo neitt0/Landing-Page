@@ -8,6 +8,7 @@ body {
     padding: 0 150px;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -16,10 +17,22 @@ nav {
     height: 75px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 500;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 header {
@@ -29,6 +42,13 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     padding: 0 100px;
+    background-color: #1f2937;
+}
+
+.header-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .header-info {
@@ -36,6 +56,12 @@ header {
     flex-direction: column;
     flex: 1;
     align-items: flex-start;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-info button {
+    background-color: #3882f6;
 }
 
 header img {
@@ -56,11 +82,18 @@ header img {
     justify-content: center;
 }
 
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 .info-box {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 175px;
+    text-align: center;
 }
 
 .info-box img {
@@ -74,10 +107,18 @@ header img {
     align-items: center;
     justify-content: center;
     height: 50vh;
+    background-color: #e5e7eb;
 }
 
 .quote-author {
     align-self: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .sign-up-section {
@@ -88,9 +129,14 @@ header img {
     height: 30vh;
 }
 
+.sign-up-box {
+    background-color: #3882f6;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75px;
+    background-color: #1f2937;
 }

@@ -5,16 +5,22 @@
 }
 
 body {
-    padding: 0 150px;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
 
+.section {
+    padding: 0 150px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 75px;
+    background-color: #1f2937;
+
 }
 
 .logo {
@@ -62,6 +68,12 @@ header {
 
 .header-info button {
     background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    width: 85px;
+    height: 25px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
 header img {
@@ -72,7 +84,6 @@ header img {
     height: 50vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -86,6 +97,7 @@ header img {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin: 50px;
 }
 
 .info-box {
@@ -112,6 +124,7 @@ header img {
 
 .quote-author {
     align-self: flex-end;
+    font-weight: 500;
 }
 
 .quote {
@@ -131,6 +144,25 @@ header img {
 
 .sign-up-box {
     background-color: #3882f6;
+    color: #e5e7eb;
+    width: auto;
+    height: 110px;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.sign-up-box button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 1px solid white;
+    width: 85px;
+    height: 25px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
 footer {
@@ -139,4 +171,5 @@ footer {
     align-items: center;
     height: 75px;
     background-color: #1f2937;
+    color: #e5e7eb;
 }
